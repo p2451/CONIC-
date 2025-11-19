@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Formulário para contato</title>
+</head>
+<body>
+    <header>
+    <button class="hamburger" aria-controls="menu" aria-expanded="false" aria-label="Abrir menu">☰</button>
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+        <nav id="navbar">
+            <i class="fa-solid fa-record-vinyl" id="nav_vinyl">CONIC!</i>
+
+            <ul id="nav_list">
+                <li class="nav-item"></li>
+                    <a href="index.html">Início</a>
+                <li class="nav-item2"></li>
+                    <a href="sobre.html">Sobre</a>
+                <li class="nav-item3"></li>
+                    <a href="#">Contato</a>
+            </ul>
+
+            <a id="compre_aqui" href="index.html">
+                <button class="btn-default"> 
+                Compre Aqui!
+                 </button>
+            </a> 
+
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"></li>
+                    <a href="index.html">Início</a>
+                <li class="nav-item"></li>
+                    <a href="sobre.html">Sobre</a>
+                <li class="nav-item"></li>
+                    <a href="#home">Contato</a>
+            </ul>
+        </div>
+    </header>
+
+    <main id="content2">
+        <div class="container">
+            <div class="form-image">
+                <img src="img/contato.png" width="600px" height="500px" alt="whatsapp">
+            </div>
+
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title1">
+                            <h1>Contate-nos</h1>
+                        </div>
+                        <div class="login-button">
+                            <button>
+                                <a href="#">Enviar</a>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                        </div>
+
+                         <div class="input-box">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                        </div>
+
+                         <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+                    </div>
+
+                    <div class="gender-inputs">
+                        <div class="gender-tile">
+                            <h6>Avalie a sua experiência</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input type="radio" id="Ruim" name="Ruim">
+                                <label for="Ruim">Ruim</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="Médio" name="Médio">
+                                <label for="Médio">Médio</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="Bom" name="Bom">
+                                <label for="Bom">Bom</label>
+                            </div>
+
+                            <div class="gender-input">
+                                <input type="radio" id="Ótimo" name="Ótimo">
+                                <label for="Ótimo">Ótimo</label>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="continue-button">
+                        <button>
+                            <a href="#"> Relatar </a>
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <section class="localizacao_container">
+        <h2>Onde Estamos</h2>
+        <!-- Substitua o src abaixo pelo iframe real do Google Maps (Compartilhar > Incorporar um mapa) -->
+        <img  class="localidade" src="img/localizacao.jpeg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</body>
+
+<footer>
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2025 p2451
+            </span>
+
+            <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+        </div>
+</footer>
+
+       <script src="js/main.min.js"></script>
+       <script src="js/menu_hamburguer.js"></script>
+</html>
