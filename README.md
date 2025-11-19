@@ -120,5 +120,6 @@ GitPAGES
 https://p2451.github.io/CONIC-/
 
 image: 
-<img width="786" height="165" alt="image" src="https://github.com/user-attachments/assets/acb450d8-a784-4d9d-b3bd-27d4073d8105" />
+<img width="805" height="166" alt="image" src="https://github.com/user-attachments/assets/9310510b-7840-4616-85f2-6a89c91d3957" />
+
 
